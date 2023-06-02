@@ -9,21 +9,28 @@ function Home(): ReactElement {
     <SectionStack>
       <SectionHeader>Web Developer - Interview assignment</SectionHeader>
       <SectionDescription>
-        A College student wrote this, with our tech stack, and it works, but it needs a lot fixes.
-        <br />We are also missing the ability to show selected article.
-        <br />
-        <br />
-        You need to clean the code and use the tools we have like: <br />
-        - Typescript<br />
-        - The use of MVVM pattern<br />
-        - Handle the state with Mobx<br />
-        - Dependency Injection<br />
-        - and Jest for testing.<br />
-        <br />
-        We don't need more or other tools, but you have the ability to structure and refine code as you please, as long as the functionality is the same.
-        <br />
-        <br />
-        Optional: Write some tests that you think is necessary.
+        <p>
+          A college student has worked on this project, but the outcome is of a questionable quality.
+          We would like to refactor the code to make it more readable and maintainable. We would like to:
+        </p>
+        <ul>
+          <li>apply clean code practices</li>
+          <li>use Typescript for type checking</li>
+          <li>use MobX for state handling</li>
+          <li>use dependency injection</li>
+          <li>use Jest for unit and integration testing</li>
+          <li>apply MVVM pattern to separate rendering from the business logic</li>
+        </ul>
+        <p>
+          We <strong>must not add any other tools to our stack</strong>, but we have the ability to structure 
+          and refine code as we please, as long as the functionality remains the same.
+        </p>
+        <p>
+          We are also missing the ability to show selected article.
+        </p>
+        <p>
+          <strong>Optional</strong>: Write tests which are in your opinion necessary to ensure the quality of the code.
+        </p>
       </SectionDescription>
       <Link to='search'>Go to the Search Page</Link>
     </SectionStack>
